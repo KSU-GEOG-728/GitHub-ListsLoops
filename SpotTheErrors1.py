@@ -27,10 +27,3 @@ arcpy.Clip.analysis(Infc, Clipfc, Outfc)
 # Print the name for and spatial reference of the clipped output
 spatialRef = arcpy.Describe(Outfc)
 print("The spatial reference for {0} is {1}."(spatialRef.baseName, spatialRef.spatialReference.name))
-
-#Error 1 - metadata codeblock missing third "
-#Error 2 - original script does not import env
-#Error 3 - single backslash in workspace path
-#Error 4 - improper variable names (not all lowercase or camelCase)
-#Error 5 - GP tool syntax error
-#Error 6 - missing format function
