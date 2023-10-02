@@ -9,8 +9,6 @@ Accept the GitHub Classroom assignment <code>GitHub-ListsLoops</code> and clone 
 
 Edit the provided Python file called <code>GitHub-ListsLoops.py</code> to create a stand-alone script that loops through all feature classes in the <code>ExerciseData.gdb</code> geodatabase.  Your script should also accomplish the following objectives and/or include these specific features:
 
-o that it  accomplishes the following objectives and/or includes these specific features:
-
 1. Declares only one local variable which should specify as the workspace the <code>ExerciseData.gdb</code> geodatabase.
 2. Uses that local variable to set the current workspace environment.
 9. Allows script users the ability to supply the workspace value using the Python <code>input()</code> function.
